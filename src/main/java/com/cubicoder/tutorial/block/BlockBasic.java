@@ -5,7 +5,6 @@ import com.cubicoder.tutorial.util.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
-import net.minecraft.creativetab.CreativeTabs;
 
 public class BlockBasic extends Block {
 
@@ -17,7 +16,7 @@ public class BlockBasic extends Block {
 		super(material);
 		setUnlocalizedName(Reference.MODID + "." + unlocalizedName);
 		setRegistryName(registryName);
-		setCreativeTab(CreativeTabs.MISC);
+		setCreativeTab(Reference.TUTORIAL_TAB);
 		setSoundType(sound);
 	}
 

@@ -1,5 +1,9 @@
 package com.cubicoder.tutorial.util;
 
+import com.cubicoder.tutorial.tabs.TutorialTab;
+
+import net.minecraft.creativetab.CreativeTabs;
+
 public class Reference {
 
 	public static final String MODID = "tutorialmod";
@@ -9,4 +13,6 @@ public class Reference {
 	
 	public static final String CLIENT = "com.cubicoder.tutorial.proxy.ClientProxy";
 	public static final String SERVER = "com.cubicoder.tutorial.proxy.ServerProxy";
+	
+	public static final CreativeTabs TUTORIAL_TAB = new TutorialTab();
 }

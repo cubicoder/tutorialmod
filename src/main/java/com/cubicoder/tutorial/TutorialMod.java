@@ -2,7 +2,6 @@ package com.cubicoder.tutorial;
 
 import org.apache.logging.log4j.Logger;
 
-import com.cubicoder.tutorial.init.TutorialItems;
 import com.cubicoder.tutorial.proxy.CommonProxy;
 import com.cubicoder.tutorial.util.Reference;
 
@@ -34,7 +33,6 @@ public class TutorialMod {
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
 		proxy.init(event);
-		logger.info(TutorialItems.BASIC_ITEM.getRegistryName());
 	}
 
 	@EventHandler

@@ -10,12 +10,10 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.relauncher.SideOnly;
 
-@EventBusSubscriber
+@EventBusSubscriber(Side.CLIENT)
 public class ModelRegistryHandler {
 
-	@SideOnly(Side.CLIENT)
 	@SubscribeEvent
 	public static void registerModels(ModelRegistryEvent event) {
 		registerModel(TutorialItems.BASIC_ITEM);

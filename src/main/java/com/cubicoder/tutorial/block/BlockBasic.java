@@ -1,6 +1,6 @@
 package com.cubicoder.tutorial.block;
 
-import com.cubicoder.tutorial.util.Reference;
+import com.cubicoder.tutorial.TutorialMod;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
@@ -14,9 +14,9 @@ public class BlockBasic extends Block {
 	
 	public BlockBasic(Material material, SoundType sound, String unlocalizedName, String registryName) {
 		super(material);
-		setUnlocalizedName(Reference.MODID + "." + unlocalizedName);
+		setUnlocalizedName(TutorialMod.MODID + "." + unlocalizedName);
 		setRegistryName(registryName);
-		setCreativeTab(Reference.TUTORIAL_TAB);
+		setCreativeTab(TutorialMod.TUTORIAL_TAB);
 		setSoundType(sound);
 	}
 

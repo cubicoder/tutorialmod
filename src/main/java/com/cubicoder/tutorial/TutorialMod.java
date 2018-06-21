@@ -27,7 +27,7 @@ public class TutorialMod {
 	public static final CreativeTabs TUTORIAL_TAB = new TutorialTab("tabTutorialMod");
 	
 	@SidedProxy(clientSide = TutorialMod.CLIENT, serverSide = TutorialMod.SERVER)
-	public static ServerProxy proxy;
+	public static IProxy proxy;
 	
 	public static Logger logger;
 	

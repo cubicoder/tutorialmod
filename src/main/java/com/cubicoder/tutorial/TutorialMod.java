@@ -2,7 +2,7 @@ package com.cubicoder.tutorial;
 
 import org.apache.logging.log4j.Logger;
 
-import com.cubicoder.tutorial.proxy.ServerProxy;
+import com.cubicoder.tutorial.proxy.IProxy;
 import com.cubicoder.tutorial.tabs.TutorialTab;
 
 import net.minecraft.creativetab.CreativeTabs;

@@ -10,4 +10,10 @@ public class TutorialItems {
 
 	public static final Item BASIC_ITEM = null;
 	
+	public static final Item TUTORIAL_AXE = null;
+	public static final Item TUTORIAL_PICKAXE = null;
+	public static final Item TUTORIAL_HOE = null;
+	public static final Item TUTORIAL_SHOVEL = null;
+	public static final Item TUTORIAL_SWORD = null;
+	
 }

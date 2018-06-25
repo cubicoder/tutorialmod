@@ -3,6 +3,12 @@ package com.cubicoder.tutorial.util;
 import com.cubicoder.tutorial.block.BlockBasic;
 import com.cubicoder.tutorial.init.TutorialBlocks;
 import com.cubicoder.tutorial.item.ItemBasic;
+import com.cubicoder.tutorial.item.ItemTutorialAxe;
+import com.cubicoder.tutorial.item.ItemTutorialHoe;
+import com.cubicoder.tutorial.item.ItemTutorialPickaxe;
+import com.cubicoder.tutorial.item.ItemTutorialShovel;
+import com.cubicoder.tutorial.item.ItemTutorialSword;
+import com.cubicoder.tutorial.materials.TutorialMaterials;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -27,7 +33,12 @@ public class RegistryHandler {
 	@SubscribeEvent
 	public static void registerItems(Register<Item> event) {
 		final Item[] items = {
-				new ItemBasic("itemBasic", "basic_item")
+				new ItemBasic("itemBasic", "basic_item"),
+				new ItemTutorialAxe(TutorialMaterials.TUTORIAL_TOOL, "axeTutorial", "tutorial_axe"),
+				new ItemTutorialPickaxe(TutorialMaterials.TUTORIAL_TOOL, "pickaxeTutorial", "tutorial_pickaxe"),
+				new ItemTutorialHoe(TutorialMaterials.TUTORIAL_TOOL, "hoeTutorial", "tutorial_hoe"),
+				new ItemTutorialShovel(TutorialMaterials.TUTORIAL_TOOL, "shovelTutorial", "tutorial_shovel"),
+				new ItemTutorialSword(TutorialMaterials.TUTORIAL_TOOL, "swordTutorial", "tutorial_sword")
 		};
 		
 		final Item[] itemBlocks = {

@@ -1,0 +1,10 @@
+itemGroup.tutorialmod.tabTutorialMod=Tutorial Mod
+
+item.tutorialmod.itemBasic.name=Basic Item
+item.tutorialmod.axeTutorial.name=Tutorial Axe
+item.tutorialmod.pickaxeTutorial.name=Tutorial Pickaxe
+item.tutorialmod.hoeTutorial.name=Tutorial Hoe
+item.tutorialmod.shovelTutorial.name=Tutorial Shovel
+item.tutorialmod.swordTutorial.name=Tutorial Sword
+
+tile.tutorialmod.blockBasic.name=Basic Block

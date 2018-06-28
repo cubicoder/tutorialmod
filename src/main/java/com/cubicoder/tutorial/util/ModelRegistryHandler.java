@@ -22,6 +22,10 @@ public class ModelRegistryHandler {
 		registerModel(TutorialItems.TUTORIAL_HOE);
 		registerModel(TutorialItems.TUTORIAL_SHOVEL);
 		registerModel(TutorialItems.TUTORIAL_SWORD);
+		registerModel(TutorialItems.TUTORIAL_HELMET);
+		registerModel(TutorialItems.TUTORIAL_CHESTPLATE);
+		registerModel(TutorialItems.TUTORIAL_LEGGINGS);
+		registerModel(TutorialItems.TUTORIAL_BOOTS);
 		
 		registerModel(Item.getItemFromBlock(TutorialBlocks.BASIC_BLOCK));
 	}

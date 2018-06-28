@@ -16,4 +16,9 @@ public class TutorialItems {
 	public static final Item TUTORIAL_SHOVEL = null;
 	public static final Item TUTORIAL_SWORD = null;
 	
+	public static final Item TUTORIAL_HELMET = null;
+	public static final Item TUTORIAL_CHESTPLATE = null;
+	public static final Item TUTORIAL_LEGGINGS = null;
+	public static final Item TUTORIAL_BOOTS = null;
+	
 }

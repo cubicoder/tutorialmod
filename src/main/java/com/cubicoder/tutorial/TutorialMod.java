@@ -3,6 +3,7 @@ package com.cubicoder.tutorial;
 import org.apache.logging.log4j.Logger;
 
 import com.cubicoder.tutorial.proxy.IProxy;
+import com.cubicoder.tutorial.recipes.TutorialRecipes;
 import com.cubicoder.tutorial.tabs.TutorialTab;
 
 import net.minecraft.creativetab.CreativeTabs;
@@ -40,6 +41,7 @@ public class TutorialMod {
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
 		proxy.init(event);
+		TutorialRecipes.initSmelting();
 	}
 
 	@EventHandler

@@ -5,6 +5,8 @@ import com.cubicoder.tutorial.init.TutorialItems;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class TutorialTab extends CreativeTabs {
 
@@ -12,6 +14,7 @@ public class TutorialTab extends CreativeTabs {
 		super(TutorialMod.MODID + "." + name);
 	}
 
+	@SideOnly(Side.CLIENT)
 	@Override
 	public ItemStack getTabIconItem() {
 		return new ItemStack(TutorialItems.BASIC_ITEM);

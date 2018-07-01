@@ -6,5 +6,9 @@ item.tutorialmod.pickaxeTutorial.name=Tutorial Pickaxe
 item.tutorialmod.hoeTutorial.name=Tutorial Hoe
 item.tutorialmod.shovelTutorial.name=Tutorial Shovel
 item.tutorialmod.swordTutorial.name=Tutorial Sword
+item.tutorialmod.helmetTutorial.name=Tutorial Helmet
+item.tutorialmod.chestplateTutorial.name=Tutorial Chestplate
+item.tutorialmod.leggingsTutorial.name=Tutorial Leggings
+item.tutorialmod.bootsTutorial.name=Tutorial Boots
 
 tile.tutorialmod.blockBasic.name=Basic Block

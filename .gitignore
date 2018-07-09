@@ -23,8 +23,11 @@ run
 saves/
 config/
 options.txt
-usercache.json
-usernamecache.json
 logs/
 crash-reports/
 *.launch
+world/
+*.json
+eula.txt
+server.properties
+servers.dat

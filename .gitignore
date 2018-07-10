@@ -27,7 +27,7 @@ logs/
 crash-reports/
 *.launch
 world/
-*.json
+/*.json
 eula.txt
 server.properties
 servers.dat

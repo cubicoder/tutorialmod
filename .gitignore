@@ -27,6 +27,7 @@ logs/
 crash-reports/
 *.launch
 world/
+banned-ips.json
 /*.json
 eula.txt
 server.properties

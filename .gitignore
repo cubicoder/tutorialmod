@@ -26,7 +26,7 @@ options.txt
 logs/
 crash-reports/
 *.launch
-world/
+/world/
 /*.json
 eula.txt
 server.properties

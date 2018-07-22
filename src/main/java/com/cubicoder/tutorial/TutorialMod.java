@@ -5,6 +5,7 @@ import org.apache.logging.log4j.Logger;
 import com.cubicoder.tutorial.proxy.IProxy;
 import com.cubicoder.tutorial.recipes.TutorialRecipes;
 import com.cubicoder.tutorial.tabs.TutorialTab;
+import com.cubicoder.tutorial.world.gen.TutorialWorldGen;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
@@ -13,6 +14,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(modid = TutorialMod.MODID, name = TutorialMod.NAME, version = TutorialMod.VERSION, acceptedMinecraftVersions = TutorialMod.MC_VERSION)
 public class TutorialMod {
@@ -42,6 +44,7 @@ public class TutorialMod {
 	public void init(FMLInitializationEvent event) {
 		proxy.init(event);
 		TutorialRecipes.initSmelting();
+		GameRegistry.registerWorldGenerator(new TutorialWorldGen(), 0);
 	}
 
 	@EventHandler

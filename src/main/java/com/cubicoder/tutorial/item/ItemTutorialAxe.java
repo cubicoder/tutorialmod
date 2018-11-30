@@ -9,7 +9,7 @@ public class ItemTutorialAxe extends ItemAxe {
 	public ItemTutorialAxe(ToolMaterial material, float damage, float speed, String unlocalizedName, String registryName) {
 		super(material, damage, speed);
 		
-		setUnlocalizedName(TutorialMod.MODID + "." + unlocalizedName);
+		setTranslationKey(TutorialMod.MODID + "." + unlocalizedName);
 		setRegistryName(registryName);
 		setCreativeTab(TutorialMod.TUTORIAL_TAB);
 	}

@@ -14,7 +14,7 @@ public class BlockBasic extends Block {
 	
 	public BlockBasic(Material material, SoundType sound, String unlocalizedName, String registryName) {
 		super(material);
-		setUnlocalizedName(TutorialMod.MODID + "." + unlocalizedName);
+		setTranslationKey(TutorialMod.MODID + "." + unlocalizedName);
 		setRegistryName(registryName);
 		setCreativeTab(TutorialMod.TUTORIAL_TAB);
 		setSoundType(sound);

@@ -10,7 +10,7 @@ public class ItemTutorialArmor extends ItemArmor {
 	public ItemTutorialArmor(ArmorMaterial material, EntityEquipmentSlot equipmentSlot, String unlocalizedName, String registryName) {
 		super(material, 0, equipmentSlot);
 		
-		setUnlocalizedName(TutorialMod.MODID + "." + unlocalizedName);
+		setTranslationKey(TutorialMod.MODID + "." + unlocalizedName);
 		setRegistryName(registryName);
 		setCreativeTab(TutorialMod.TUTORIAL_TAB);
 	}

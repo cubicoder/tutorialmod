@@ -9,7 +9,7 @@ public class ItemTutorialSword extends ItemSword {
 	public ItemTutorialSword(ToolMaterial material, String unlocalizedName, String registryName) {
 		super(material);
 		
-		setUnlocalizedName(TutorialMod.MODID + "." + unlocalizedName);
+		setTranslationKey(TutorialMod.MODID + "." + unlocalizedName);
 		setRegistryName(registryName);
 		setCreativeTab(TutorialMod.TUTORIAL_TAB);
 	}

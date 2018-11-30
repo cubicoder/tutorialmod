@@ -13,10 +13,10 @@ public class TutorialTab extends CreativeTabs {
 	public TutorialTab(String name) {
 		super(TutorialMod.MODID + "." + name);
 	}
-
+	
 	@SideOnly(Side.CLIENT)
 	@Override
-	public ItemStack getTabIconItem() {
+	public ItemStack createIcon() {
 		return new ItemStack(TutorialItems.BASIC_ITEM);
 	}
 

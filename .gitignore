@@ -20,14 +20,3 @@ build
 # other
 eclipse
 run
-saves/
-config/
-options.txt
-logs/
-crash-reports/
-*.launch
-/world/
-/*.json
-eula.txt
-server.properties
-servers.dat

@@ -1,5 +1,6 @@
 # eclipse
 bin
+eclipse
 *.launch
 .settings
 .metadata
@@ -8,6 +9,7 @@ bin
 
 # idea
 out
+classes
 *.ipr
 *.iws
 *.iml
@@ -18,5 +20,8 @@ build
 .gradle
 
 # other
-eclipse
+*.DS_Store*
 run
+!LICENSE
+!README.*
+!.gitignore

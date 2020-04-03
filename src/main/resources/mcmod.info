@@ -1,0 +1,16 @@
+[
+{
+  "modid": "tutorialmod",
+  "name": "Tutorial Mod",
+  "description": "Tutorial mod for cubicoder's Minecraft Forge tutorials.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://cubicoder.github.io",
+  "updateUrl": "",
+  "authorList": ["cubicoder"],
+  "credits": "cubicoder's tutorials",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
